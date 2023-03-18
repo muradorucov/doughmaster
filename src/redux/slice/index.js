@@ -34,7 +34,6 @@ export const basketSlice = createSlice({
             }
         },
         removefrombasket: (state, action) => {
-            console.log(action.payload);
             state.value.pizzas.forEach(pizza => {
                 if (pizza.id === action.payload) {
                     pizza.count--
