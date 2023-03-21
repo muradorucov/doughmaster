@@ -29,7 +29,7 @@ export const Pizza = () => {
                         </div>
                     </div>
 
-                </li>) : <p className='not-pizza'>Bu ada uyğun pizzamız yoxdur 😒. Digərlərinə bax!</p>}
+                </li>) : <p className='not-pizza'>We don't have any pizza matching this name 😒. Look at the others!</p>}
             </ul>
             <Pagination
                 itemsPerPage={9}
