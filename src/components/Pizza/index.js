@@ -1,7 +1,7 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { pizzalist } from '../Data'
-import { addtobasket } from '../redux/slice'
+import { pizzalist } from '../../Data'
+import { addtobasket } from '../../redux/slice'
 
 export const Pizza = () => {
     const dispacth = useDispatch()

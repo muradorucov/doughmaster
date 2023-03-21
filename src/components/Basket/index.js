@@ -1,6 +1,7 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { removefrombasket, addtobasket } from '../redux/slice'
+import { addtobasket, removefrombasket } from '../../redux/slice'
+
 export const Basket = () => {
     const { pizzas, mainTotalPrice } = useSelector(state => state.basket.value)
     const dispacth = useDispatch()
