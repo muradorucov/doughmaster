@@ -35,7 +35,7 @@ export const Basket = () => {
                                 </div>
                             </div>
                         </li>
-                    )) : <p className='not-buy-pizza'>Siz hələdə bizim pizzaların dadına baxmamısınızz?😒</p>
+                    )) : <p className='not-buy-pizza'>Have you not tasted our pizzas yet?😒</p>
                 }
             </ul >
             {
