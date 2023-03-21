@@ -1,0 +1,36 @@
+.header{
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: -1px 20px 16px -21px #11111190;
+}
+
+.header img{
+    width: 50px;
+    height: 50px;
+}
+
+.header-content{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo span{
+    font-family: Luckiest Guy,cursive;
+    font-size: 35px;
+    color: #2980b9;
+    margin-left: 20px;
+}
+
+.header-content input{
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 400px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    color: #212529;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  }

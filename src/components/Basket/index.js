@@ -1,7 +1,7 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { addtobasket, removefrombasket } from '../../redux/slice'
-
+import "./style.css"
 export const Basket = () => {
     const { pizzas, mainTotalPrice } = useSelector(state => state.basket.value)
     const dispacth = useDispatch()
@@ -11,12 +11,12 @@ export const Basket = () => {
                 {pizzas.length > 0 ?
                     <>
                         {pizzas.map(pizza => (
-                            <li className="basket-pizza" key={pizza.id}>
+                            <li className="basket-pizza center" key={pizza.id}>
                                 <img src={pizza.img} alt={pizza.name} />
                                 <div>
                                     <h3 className="pizza-name">{pizza.name}</h3>
-                                    <div className="content-footer">
-                                        <p className="price">{(pizza.totaltPrice).toFixed(2)} $</p>
+                                    <div className="content-footer center">
+                                        <p className="price">{(pizza.totaltPrice).toFixed(2)} Azn</p>
                                         <div>
                                             <button onClick={() => dispacth(removefrombasket(pizza.id))}>-</button>
                                             <span>{pizza.count}</span>
