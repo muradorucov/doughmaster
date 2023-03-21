@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { addtobasket, removefrombasket } from '../../redux/slice'
+import { addtobasket, removefrombasket } from '../../redux/slice/basket.slice'
 import "./style.css"
 export const Basket = () => {
     const { pizzas, mainTotalPrice } = useSelector(state => state.basket.value)

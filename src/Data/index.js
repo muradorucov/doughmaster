@@ -22,7 +22,7 @@ export const pizzalist = [
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131840/choose-your-own-new-haven-style-pizza-6-pack.ab82828afc6172cdd4017556c15e36dd.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Zuppardi's Apizza",
         "dsc": "New Haven-Style Pizza - 6 Pack (Choose Your Own)",
-         "price": 6,
+        "price": 6,
         "rate": 4,
         "country": "West Haven, CT"
     },
@@ -103,7 +103,7 @@ export const pizzalist = [
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/115101/plain-thin-crust-pizza-4-pack.5540e9d166db2f0853643c6517e4a225.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "The Columbia Inn",
         "dsc": "Plain Thin Crust Pizza - 4 Pack",
-         "price": 6,
+        "price": 6,
         "rate": 5,
         "country": "Montville, NJ"
     },
@@ -121,7 +121,7 @@ export const pizzalist = [
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132144/new-haven-style-mozzarella-pizza-6-pack.8e8a38db57935f5cb6afa4202b966135.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Zuppardi's Apizza",
         "dsc": "New Haven-Style Mozzarella Pizza - 6 Pack",
-         "price": 8,
+        "price": 8,
         "rate": 5,
         "country": "West Haven, CT"
     },
@@ -130,7 +130,7 @@ export const pizzalist = [
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133289/choose-your-own-3-pizzas.a6de480878c0b3b9f4d240bacbb665e7.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Heggies Pizza",
         "dsc": "Choose Your Own - 3 Pizzas",
-         "price": 6,
+        "price": 6,
         "rate": 4,
         "country": "Milaca, MN"
     },
@@ -148,7 +148,7 @@ export const pizzalist = [
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133262/choose-your-own-pizza-3-pack.7ee3cc9bbc48b97a0f66e073d4071982.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Detroit Style Pizza Co",
         "dsc": "Detroit Pizza - Choose Your Own Pizza 3 Pack",
-         "price": 8.5,
+        "price": 8.5,
         "rate": 4,
         "country": "Detroit, MI"
     },
@@ -229,7 +229,7 @@ export const pizzalist = [
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/106830/2-lou-malnatis-deep-dish-pizzas-lezza-chocolate-cake.f791b76ca45f684a6c0512aa4aec56aa.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Lou Malnati's Pizza",
         "dsc": "2 Lou Malnati's Deep Dish Pizzas + Lezza Chocolate Cake",
-         "price": 10.5,
+        "price": 10.5,
         "rate": 4,
         "country": "Chicago, IL"
     },
@@ -256,7 +256,7 @@ export const pizzalist = [
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133501/sausage-pizza-6-pack.31fa94213da11ab58951fcc7838f6754.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Zuppardi's Apizza",
         "dsc": "New Haven-Style Sausage Pizza - 6 Pack",
-         "price": 6,
+        "price": 6,
         "rate": 5,
         "country": "West Haven, CT"
     },
@@ -265,7 +265,7 @@ export const pizzalist = [
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/104910/cheese-neapolitan-pizza-2-pack.856b6b14d276981a4654e1bb348cb328.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Joe & Pats Pizzeria",
         "dsc": "Original Cheese New York Pizza - 2 Pack",
-         "price": 6,
+        "price": 6,
         "rate": 4,
         "country": "Staten Island, NY"
     },
@@ -301,7 +301,7 @@ export const pizzalist = [
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/137018/Pequods-CYO-2-Pack-Product.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Pequod's Pizza",
         "dsc": "Pan-Style Deep Dish Pizza - Choose Your Own 2 Pack",
-         "price": 13,
+        "price": 13,
         "rate": 5,
         "country": "Chicago, IL"
     },
@@ -310,7 +310,7 @@ export const pizzalist = [
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133839/pizza-choose-your-own-2-pack.0820d0d4642ddb9fbda63e2394b63932.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Arthur Avenue Wood Fired Pizza",
         "dsc": "Wood Fired Pizza - Choose Your Own 2 Pack",
-         "price": 13,
+        "price": 13,
         "rate": 5,
         "country": "Pleasantville, NY"
     },
@@ -337,7 +337,7 @@ export const pizzalist = [
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/104006/wood-fired-pizza-choose-your-own-4-pack.e36692807e17618a646885a8087a4c97.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Pizzeria Bianco",
         "dsc": "Wood Fired Pizza - Choose Your Own 4 Pack",
-         "price": 13,
+        "price": 13,
         "rate": 5,
         "country": "Phoenix, AZ"
     },
@@ -373,7 +373,7 @@ export const pizzalist = [
         "img": "https://goldbelly.imgix.net/uploads/product_image/image/61943/spicy-spring-2-pies-serves-16.fd9e6f0fce7306a15ec794b7d91f7056.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Prince Street Pizza",
         "dsc": "Spicy Spring™ - 2 Pies (Serves 16)",
-         "price": 10.5,
+        "price": 10.5,
         "rate": 5,
         "country": "New York, NY"
     },

@@ -1,16 +1,15 @@
 import React from 'react'
-import { useDispatch } from 'react-redux'
-import { pizzalist } from '../../Data'
-import { addtobasket } from '../../redux/slice'
+import { useDispatch, useSelector } from 'react-redux'
+import { addtobasket } from '../../redux/slice/basket.slice'
 import "./style.css"
 
 export const Pizza = () => {
     const dispacth = useDispatch()
-
+    const pizzalist = useSelector(state => state.pizzas.value)
     return (
         <div>
             <ul className='pizza-list'>
-                {pizzalist.map(pizza => <li key={pizza.id} className="pizza">
+                {pizzalist.length ? pizzalist.map(pizza => <li key={pizza.id} className="pizza">
                     <img src={pizza.img} alt={pizza.name} />
                     <div className='pizza-content'>
                         <h3 className='pizza-name' title={pizza.name}>{pizza.name}</h3>
@@ -21,7 +20,7 @@ export const Pizza = () => {
                         </div>
                     </div>
 
-                </li>)}
+                </li>): <p>Bu ada uyğun pizza yoxdur</p>}
             </ul>
         </div>
     )
