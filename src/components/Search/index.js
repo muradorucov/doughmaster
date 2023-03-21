@@ -10,7 +10,7 @@ export const Search = () => {
         dispatch(serachPizza(sList))
     }
     return (
-        <input type="search" placeholder='Pizza Axtar ...'
+        <input type="search" placeholder='Search pizza ...'
             onChange={(e) => searchHandlePizza(e.target.value)} />
     )
 }
