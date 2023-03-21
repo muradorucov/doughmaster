@@ -12,6 +12,7 @@
 .Basket ul li {
     background-color: #fff;
 }
+
 .basket-pizza {
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -25,9 +26,14 @@
     height: 60px;
     margin-right: 10px;
 }
+.basket-pizza .pizza-name{
+    width: 100%;
+    font-size: 16px;
+}
 
 
 .content-footer {
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -53,12 +59,43 @@
 }
 
 
-.not-buy-pizza{
+.not-buy-pizza {
     border-radius: 6px;
     padding: 10px;
     border: 1px solid #3498db;
-    font-size:21px ;
+    font-size: 21px;
     font-weight: 500;
     color: #34495e;
     font-family: 'Righteous', cursive;
+}
+
+.basket-pizza>.center {
+    width: 180px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.buy-pizza {
+    margin-top:20px ;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 17px;
+}
+
+.buy-pizza button {
+    cursor: pointer;
+    background-color: #3498db;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.buy-pizza button:active{
+    background-color: #34495e;
+}
+.buy-pizza span{
+    margin-right: 10px;
+    color: #9b59b6;
+    font-weight: 600;
 }
