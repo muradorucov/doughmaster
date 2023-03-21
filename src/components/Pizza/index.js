@@ -1,15 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { addtobasket } from '../../redux/slice/basket.slice'
+import Pagination from '../Pagination'
 import "./style.css"
 
 export const Pizza = () => {
     const dispacth = useDispatch()
     const pizzalist = useSelector(state => state.pizzas.value)
+    console.log(pizzalist);
+    const [currentPage, setCurrentPage] = useState(1);
+
+    const indexOfLastItem = currentPage * 9;
+    const indexOfFirstItem = indexOfLastItem - 9;
+    const currentItems = pizzalist.slice(indexOfFirstItem, indexOfLastItem);
+
+    const paginate = (pageNumber) => setCurrentPage(pageNumber);
     return (
         <div>
             <ul className='pizza-list'>
-                {pizzalist.length ? pizzalist.map(pizza => <li key={pizza.id} className="pizza">
+                {currentItems.length ? currentItems.map(pizza => <li key={pizza.id} className="pizza">
                     <img src={pizza.img} alt={pizza.name} />
                     <div className='pizza-content'>
                         <h3 className='pizza-name' title={pizza.name}>{pizza.name}</h3>
@@ -20,8 +29,13 @@ export const Pizza = () => {
                         </div>
                     </div>
 
-                </li>): <p className='not-pizza'>Bu ada uyğun pizzamız yoxdur 😒. Digərlərinə bax!</p>}
+                </li>) : <p className='not-pizza'>Bu ada uyğun pizzamız yoxdur 😒. Digərlərinə bax!</p>}
             </ul>
+            <Pagination
+                itemsPerPage={9}
+                totalItems={pizzalist.length}
+                paginate={paginate}
+            />
         </div>
     )
 }
