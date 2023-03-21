@@ -20,7 +20,7 @@ export const Pizza = () => {
                         </div>
                     </div>
 
-                </li>): <p>Bu ada uyğun pizza yoxdur</p>}
+                </li>): <p className='not-pizza'>Bu ada uyğun pizza yoxdur</p>}
             </ul>
         </div>
     )

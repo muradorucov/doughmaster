@@ -31,7 +31,7 @@ export const Basket = () => {
                             <span>{mainTotalPrice.toFixed(2)}</span>
                         </div>
                     </>
-                    : <p>Siz hələdə bizim pizzaların dadına baxmamısınızz?😒
+                    : <p className='not-buy-pizza'>Siz hələdə bizim pizzaların dadına baxmamısınızz?😒
                     </p>
                 }
 

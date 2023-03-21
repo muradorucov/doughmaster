@@ -1,18 +1,17 @@
 .Basket {
     width: 300px;
-
 }
 
 .Basket ul {
-    background-color: #f9f2f2;
-    border: 1px solid green;
+    background-color: #ecf0f1;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     padding: 5px;
 }
 
 .Basket ul li {
     background-color: #fff;
 }
-
 .basket-pizza {
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -51,4 +50,15 @@
 .basket-pizza .content-footer button {
     width: 30px;
     height: 30px;
+}
+
+
+.not-buy-pizza{
+    border-radius: 6px;
+    padding: 10px;
+    border: 1px solid #3498db;
+    font-size:21px ;
+    font-weight: 500;
+    color: #34495e;
+    font-family: 'Righteous', cursive;
 }
