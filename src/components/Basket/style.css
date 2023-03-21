@@ -54,8 +54,8 @@
 }
 
 .basket-pizza .content-footer button {
-    width: 30px;
-    height: 30px;
+    width: 27px;
+    height: 27px;
 }
 
 
@@ -98,4 +98,9 @@
     margin-right: 10px;
     color: #9b59b6;
     font-weight: 600;
+}
+
+.content-footer>.center{
+    width: 80px;
+    justify-content: space-between;
 }

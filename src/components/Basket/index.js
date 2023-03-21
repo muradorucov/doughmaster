@@ -27,7 +27,7 @@ export const Basket = () => {
                                 <h3 className="pizza-name" title={pizza.name}>{pizza.name}</h3>
                                 <div className="content-footer center">
                                     <p className="price">{(pizza.totaltPrice).toFixed(2)} Azn</p>
-                                    <div>
+                                    <div className='center'>
                                         <button onClick={() => dispacth(removefrombasket(pizza.id))}>-</button>
                                         <span>{pizza.count}</span>
                                         <button onClick={() => dispacth(addtobasket(pizza))}>+</button>
